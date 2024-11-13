@@ -1,0 +1,163 @@
+What is React?
+   - Open source Javascript Library for building UI
+   - Not a framework
+   - Responsible for UI
+Why learn React?
+   - Developed by Facebook
+   - Huge Community support
+   - In demand skillset
+   - Component based Architecture
+   - Reusable code
+   - React is declarative
+Pre-requisites
+   - HTML,CSS and JS Fundamentals
+   - ES6
+Component based architecture
+   - represents part of UI
+   - written using JS
+Installation
+   - Node
+   - Text Editor (Preferably VSCode)
+Folder Structure
+   - index.html
+   - index.js
+   - App.js
+   - index.css
+   - App.css
+Simple React example - Hello World
+NPX and NPM	
+	- Node Package runner
+ES6 Features
+	- Class
+	- Arrow function
+	- let,var, const
+	- destructuring
+	- spread operator
+	- rest operator
+	- map method
+	
+Components
+	- Functional component
+		- Javascript functions
+		- Receives optional props and return HTML (JSX)
+		- Simple JS functions
+		- Mainly responsible for UI
+		- stateless till react v16.7.0 
+		
+	- Class Component
+		- ES6 classes
+		- receives optional props and return HTML (JSX)
+		- Maintains private internal state
+		- Use render method to return HTML 
+		- provide lifecyle hooks
+		- stateful
+		
+Differences between Functional and Class components
+
+JSX:
+	- Javascript XML
+	- Extenstion to the javascript syntax 
+	- Write XML like code for elements and components
+	- Jsx makes react code simpler and elegant
+	
+Props  
+	- Props are immutable
+	- simillar to function arguments
+	- either html attribute or children
+	
+State
+	- Props Vs State
+		- Props are immutable rather state is mutable
+		- props are like arguments but state is like variable declared within a function
+		- props are passed to the component but state is managed within the component
+		- props, this.props - accessing whereas useState, this.state to accessing
+
+setState:
+
+
+Destructuring Props and States:
+
+
+Conditional Rendering
+		- if/else
+		- Element Variables
+		- Ternary operator	
+
+List rendering
+
+Binding Event handlers
+		- bind method
+		- Arrow functions as event handlers
+		- binding at constructor
+		- Arrow function as class property
+
+Form handling
+
+React routers
+
+Memo
+Skipping re-rendering when props are unchanged
+
+Redux
+
+Redux is used to maintain and update data across your applications for 
+multiple components to share, all while remaining independent of the components.
+
+In a large application, there is a need to store the state at a central location 
+and share it among the different components. 
+That is where the Redux store comes into the picture.
+
+How Redux works:
+https://blog.logrocket.com/understanding-redux-tutorial-examples/
+
+Actions - Events, only way to send data to store (plain js must have type, payload). 
+Executed using dispatch.
+
+Reducer - functions that takes current state and performs an action and return a new state.
+
+Store - Container.The only way the state can change is through actions dispatched to the store
+
+
+npm install @reduxjs/toolkit
+npm install react-redux
+
+https://github.com/codebucks27/React-Redux-Todo-App/tree/main
+
+
+HTTP programming
+
+HTTP Request methods
+1. Get, Post, PUT, Delete
+
+1. Fetch API 
+2. Axios
+
+
+
+CRUD Operation using React
+
+
+
+
+
+
+
+
+
+
+
+
+Steps: setup the json server:
+npm install -g json-server
+
+
+
+https://stackabuse.com/get-http-request-in-react/
+
+https://www.youtube.com/watch?v=59z1_3-vTOk
+https://github.com/suraj25809/React-CRUD-using-Json-Server
+https://www.geeksforgeeks.org/how-to-build-a-basic-crud-app-with-node-js-and-reactjs/
+
+
+
+

@@ -1,0 +1,19 @@
+Source Code Management
+SCM Vs Version Control System
+Types of VCs
+Differences 
+What is Git?
+Advantages of Git
+ - Open source
+ - Scalable
+ - Distributed
+ - Security
+ - Speed
+ - Offline working
+ - Undo mistakes
+ - Track the changes
+
+How Git Works?
+Git Commands
+ - Configuration
+ - 

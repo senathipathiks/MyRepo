@@ -1,0 +1,50 @@
+SpringBoot
+
+What is Springboot
+    - to create production ready application
+    - will take care of dependencies and configurations
+    
+Spring Framwork + Embedded HTTP Servers - XML Configs/
+@Configuration
+
+Spring Boot follows the "opinionated defaults configuration" 
+approach, which means it preconfigures many of the common 
+settings based on conventional wisdom and best practices.
+
+Key Differences between Spring and Spring Boot
+
+Purpose: Spring is a comprehensive framework for building Java 
+applications, while Spring Boot is a tool that simplifies 
+the initial setup and development of Spring-based applications.
+
+Configuration: In Spring, you need to configure various 
+components manually, either through XML or Java-based 
+configuration. Spring Boot, on the other hand, comes with 
+sensible defaults and auto-configuration for most common 
+use cases, reducing the need for manual configuration.
+
+Dependency Management: Spring requires you to specify and 
+manage dependencies manually. Spring Boot comes with an 
+embedded dependency management system, making it easier to 
+include and manage external libraries.
+
+Embedded Servers: Spring Boot includes embedded servers like 
+Tomcat, Jetty, or Undertow, allowing you to run your 
+application as a standalone application without the need 
+for a separate web server.
+
+Production-Ready Features: Spring Boot comes with 
+production-ready features out of the-box, such as metrics, 
+health checks, and externalized configuration, making it 
+easier to run and monitor your application in a production 
+environment.
+
+Development Tooling: Spring Boot provides additional 
+development tools and plugins for popular IDEs like 
+IntelliJ IDEA and Eclipse, simplifying the development process.
+
+It simplifies the initial setup, reduces boilerplate code, 
+and provides a streamlined development experience with its 
+opinionated defaults and embedded servers.
+
+Architecture of SpringBoot Application

@@ -1,0 +1,138 @@
+Bootstrap
+
+1. Container
+	- Container 
+	-Container-fluid
+
+2. Grid
+	- Col-lg/md/sm/xl-no
+
+3. Buttons
+	.btn
+	.btn-primary
+	.btn-secondary
+	.btn-success
+	.btn-info
+	.btn-warning
+	.btn-danger
+	.btn-link
+	.btn-outline-primary
+	sizes: lg/md/sm/xs
+	Active, disabled,Block level buttons
+	
+	btn-group, btn-group-vertical
+
+4. Tables
+	.table
+	.table-striped
+	.table-bordered
+	.table-hover
+	.table-dark
+	.table-borderless
+	
+	color:
+	.table-primary
+	.table-success	
+	.table-info
+	.table-secondary
+	.table-danger
+	.table-warning
+	.table-light
+
+5. Background - setting the background
+	.bg-primary
+	.bg-secondary
+	.bg-warning
+	.bg-danger
+	.bg-info
+	.bg-success
+	.bg-light
+	.bg-dark
+
+6. Text - Change the text color
+	.text-muted - gray color
+	.text-primary - blue
+	.text-secondary
+	.text-warning
+	.text-danger
+	.text-info
+	.text-success
+	.text-light
+	.text-dark
+
+7. Alerts
+	.alert-primary - blue
+	.alert-secondary
+	.alert-warning
+	.alert-danger
+	.alert-info
+	.alert-success
+	.alert-light
+	.alert-dark
+	
+8. Badges
+	.badge--primary - blue
+	.badge-secondary
+	.badge-warning
+	.badge-danger
+	.badge-info
+	.badge-success
+	.badge-light
+	.badge-dark
+
+9. Progress bar
+	.progress
+	.progress-bar
+	.progress-bar-striped
+
+10. Navigation bar
+	.navbar
+	.navbar-nav
+	.nav-item
+	.nav-link
+	.nav-expand-sm/md/lg
+	.navbar-light
+	.navbar-dark
+	.navbar-brand
+	justify-content-center/end
+	
+11.Navigation tabs & Pills Menus (Horizontal) 
+	.nav
+	.nav-item
+	.nav-link
+	.nav-pills
+	.nav-tabs
+	.flex-column
+	
+12.Image
+	.img-fluid
+	.rounded-circle
+	.rounded
+	.img-thumbnail
+	..float-left/right
+	
+	
+13.Form
+	.form-group - Full width form-group
+	.form-inline - displays the elements inline
+	.form-control
+	.form-check-input
+	input (Text)
+	input (Password)
+	checkbox
+	radio
+	textarea
+	select
+	
+
+
+
+
+
+
+
+
+Component Lifecycle Methods:
+Mounting - Constructor, render, getDerivedStateProps,ComponentDidMount
+Updating - shouldComponentUpdate,componentDidUpdate,getSnapshotBeforeUpdate
+UnMounting-componentWillUnmount

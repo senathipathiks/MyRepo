@@ -1,0 +1,34 @@
+What is Hibernate?
+  - Simple Lightweight ORM framework.
+
+Need of Hibernate:
+  - JDBC code is dependent upon the Database software being used
+  - changing of Database in middle of the project is very costly.
+  - JDBC code is not portable code across the multiple database software.
+  - Exception handling is mandatory.
+  - There is no support Object-level relationship.
+  - In JDBC, there occurs a Boilerplate problem
+
+Advantages:
+  - Supports auto DDL operations
+  - Auto Primary key generation.
+  - Supports HQL
+  - Exception Handling is not mandatory
+  - Supports cache memory
+  - supports Object relational mapping
+
+Hibernate Architecture
+  
+Elements of Hibernate Architecture
+ 
+Simple Example
+
+Steps to create an appln using XML
+
+Steps to create an appln using annotation
+
+generator class
+
+
+
+

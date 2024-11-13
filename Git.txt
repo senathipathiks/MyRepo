@@ -1,0 +1,12 @@
+Create a team with 4 members - Team leader
+Create a repository with one html file and add others as colloborators - Team leader
+add the remote repository in your local git - All
+Pull the remote repository and create a copy in your local machine - All
+Edit the html file. Add some contents into the html file - All
+Push the file to remote repository - All
+if any conflicts, pull the current version and add your contents- All
+Once again pull the recent version from remote repository - All
+Create a branch, do update on the Line #5 - All
+Push the branch to remote repository - All
+Create a pull request and assign reviewer to review and approve - Team Leader
+Finally Merge the file with Master

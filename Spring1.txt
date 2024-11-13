@@ -1,0 +1,107 @@
+Spring
+ 
+	-Framework
+	-Light weight
+	-template
+	-loosely coupled
+	-IOC(Inversion of Control)
+	-Proper MVC
+	-Easy to test
+	-AOP
+ 
+-Introduction
+		- Lightweight and popular open-source
+		- Java-based framework developed by Rod Johnson 2003
+		- Used to develop enterprise-level application
+		- Support to many other framework such as Hibernate, Tapestry, EJB, JSF, Struts,etc, so it also called a framework of framework
+		- It's an application framework and IOC container for the the java platform
+		-It contians serval modules like a IOC, AOP, DAO, Context, Web MVC, etc.
+	-Advantages
+		-Lightwieght
+		-predefined template
+		-Loose Coupling
+		-Easy to test
+		-Fast development
+		-Integration with other frameworks
+		-Well defined MVC Frame work
+	-Architecture of Spring Framework
+	-Bean
+		-It is an Object that is instantiated, assembled, and managed by a Spring IOC Container
+	-Scopes
+		-Singleton
+			-Only one bean
+		-Prototype
+`			-New bean for Each request
+		-request
+		-Session
+		-Global-session
+	-Lifecycle of Bean
+		-Bean Instantiated
+		-Dependencies Injection
+		-Init()
+		-Utility method
+		-destroy()
+		
+	-Constructor Injection & setter Injection
+	
+	- Annotation Based
+	
+	-Spring Bean Lifecycle CheatSheet
+		-Bean Definitions are declared
+		-Bean Definitions are Loaded
+		-Bean Definitions are processed
+		-Beans are instantiated
+		-Dependencies are injected
+		-Neans are post processed 
+		-Beans are initailised
+		-Beans are Post Processed
+		-Beans live in application context
+		-bean are destroyed
+-Dependency Injection
+		-it is a design pattern used to create loosely coupled componets in a software application
+		-Avoid modifying the application.
+	-Uses of DI:
+		-Code Maintainability
+		-Testability
+		-Scalability
+	-Constructor Injection 
+	-Setter Injection
+	-Annotation
+		-no need of XML Class
+	-Core Annotations
+		-@component
+			-Class level
+		-@Bean
+			-method
+		-@Configuration
+	-Auto Wired
+	-Annotations:
+		-@Configuration 
+			-Class-based annotation that define one or more bean method in the class
+			-Java Developers can write codes by replacing large XML configuration files.
+		-@Autowired
+			-used to inject the dependency of one into another
+		-@Bean
+			-Method-level annotation
+			-To create and manage beans
+		-@Component
+			-Used to mark the java class in the Spring application
+			-Turns the class into a spring bean at the auto-scan time.
+		-@ComponentScan
+			-It is an annotation used in the spring Framework for auto-detecting and registering Spring - Managed components
+		-@Controller 
+			-controller are responsible for processing user request returning the response
+		-@service
+			-Perfrom business logic operation within a spring application, represents the service layer
+		-@Repository
+		
+	-Spring MVC
+		-Model View Controller
+		-Model 2
+ 
+	-Model
+		-It is an interface in the spring core package under com.springframework.ui
+		-It is used for transferring the data or attributes from our business logic to the rebering view pages.
+	-ModelMap
+		-Model is a Class in the spring core package under com.springFrameWork.
+		-It is used for transferring the data or attribute from our buiness logic to the rendering view pages

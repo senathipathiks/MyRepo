@@ -1,0 +1,86 @@
+General properties:
+color
+text-align
+text-decoration
+width
+height
+
+
+customizing font:
+font-family:
+font-style
+font-weight
+text-decoration
+font-size
+
+customizing borders:
+border-style
+border-width
+border-color
+border-radius
+padding
+border-top-style
+border-left-style
+border-right-style
+border-bottom-style
+
+Customizing background:
+background-image:url();
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+background-size:cover;
+background:linear-gradient(to right color, color)
+
+box element:
+border:
+width:
+height:
+font-size:
+background:
+
+Margins:
+Margin-top
+Margin-left
+Margin-right
+Margin-bottom
+Margin:
+
+position:
+position:static, fixed, relative, absolute, sticky
+
+Transform:
+2D
+translate(x axis, y axis)
+rotate
+skew
+
+Pseudoclasses:keyword added to the selector to specify a special state 
+of the selected element
+a:link{ }
+a:visited
+a:hover
+a:active
+button:hover
+button:active
+li:nthchild():
+
+cursor customizing:
+wait
+help
+loading
+crosshair
+default
+pointer
+progress
+zoom-in
+zoom-out
+
+Display properties:
+inline
+block
+inline-block
+none
+
+
+

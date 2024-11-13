@@ -1,0 +1,21 @@
+Food receipe Mgnt System
+Personal Finance Mgnt System
+Quiz generator application
+Multimedia Management System
+Reminder Mgnt Application
+Child Adoption mgnt System
+Students Grievance Management System
+Bookshop Management System 
+Gym management System
+Pharmacy Management System
+Agri Equipment rental Management System
+Online House Broking System
+E-Voting System
+Cake shop Management System 
+Loan Management System
+Customer Service Call Management System
+Exam management System
+Complaints Handling Management System
+Beauty Parlor Management System
+Online Land registration System
+

@@ -1,0 +1,86 @@
+Servlet:
+
+Java Servlet
+ 
+	-Type of Java Application
+		-Console Based Application
+		-Mobile Application
+		-Enterprise Application
+		-Web-based Application
+	-Web Component
+		-Web pages 
+		-servlets
+		-HTML
+		-CSS/Bootsrtap
+		-JavaScript
+	- Servlet & JSP
+		-Server side technology
+		-Client - server Interaction
+		-HTTP
+		-Accept Request - process request - respond
+	- Web Server
+		- Web Container 
+			-Servlet
+	-Earlier 
+		-CGI - Common Gateway Interface
+	- Java Servlet Life Cycle
+	- Java Sevlet API Hierarchy
+Servlet Communication
+    - RequestDispatcher methods
+	- SendRedirect
+Session Tracking
+	- Cookies
+	- Hidden field
+	- URL rewriting
+	- Session
+	
+	
+Java Server Page
+ 
+	-JSP
+		-Dynamic web page
+		-Advanced Servlet Technology
+		-Server Side Component
+	-Life Cycle of Jsp
+		-Translation of JSP Page
+		-Compilation of JSP Page
+		-Classloading (the classloader loads class file)
+		-Instantiation (Object of the Generated Servlet is created).
+		-Initialization ( the container invokes jspInit() method).
+		-Request processing ( the container invokes _jspService() method).
+		-Destroy ( the container invokes jspDestroy() method).
+	-Method of jsp
+		- jspInit(), 
+		-_jspService() 
+		-jspDestroy()
+	-Jsp Element
+		-Scripting Element
+		-Directive Element
+		-Action Element
+	- Scripting Element -Tags
+		-Comment <%-- ... --%>
+		-Declaration <%! ... %>
+		-Scriptlet <% ... %>
+		-Expression <%= ... %>
+	-Jsp Directive Elements <%@ ... %>
+		-Page
+		-Include
+		-Taglib
+	- Implicit objects
+		- out
+		- request
+		- response
+		- session
+		- config
+		- Application
+		- page
+		- pagecontext
+		- Exception
+	- Action Elements <jsp:action> 
+		- jsp:forward
+		- jsp:include
+		- jsp:useBean
+		- jsp:setProperty
+		- jsp:getProperty
+		- jsp:param
+	

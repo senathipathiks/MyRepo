@@ -1,0 +1,21 @@
+Exercise:1
+Create a registration form and display the values entered by the user in another page using servlets
+
+Exercise:2
+
+Create a servlet and name it as AuthServlet
+Create a html/jsp file
+Create a form that accepts a name, password and pass it on to the above servlet.
+The receiving servlet (AuthServlet) should check the name and password against a hard coded list of name-password pairs stored in a HashMap. HashMap should be initialized with some dummy usernames and passwords in the constructor/init method of the servlet.
+Servlet AuthServlet should return either 'Name/Password Match' or  'Name/Password Does Not Match' back to client.
+
+
+Exercise:3
+
+Create a servlet and name it as FileUploader.
+Create an html/jsp file with a form with fields for uploading a file and a check box for allowing overwrite.
+Uploads folder should be named uploads and should be immediately under the WEB-INF folder.
+The FileUploader servlet should check if there is already a file with the name specified in the uploads folder first.
+If there is a file and Overwrite is checked, then write, and return message 'File is Overwritten'.
+If there is a file and Overwrite is NOT checked, return a message that 'File already exist and Overwrite not checked.'
+If there is no file with same name, write the file and return a message that 'File Written.'

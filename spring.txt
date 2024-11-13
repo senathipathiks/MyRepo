@@ -1,0 +1,58 @@
+Spring
+
+Introduction:
+ - lightweight and popular open-source. 
+ - Java-based framework developed by Rod Johnson in 2003.
+ - Used to develop enterprise-level applications.
+ - Support to many other frameworks such as Hibernate,
+ Tapestry, EJB, JSF, Struts, etc, so it is also called a 
+ framework of frameworks.
+ - It’s an application framework and IOC (Inversion of Control) container 
+ for the Java platform. 
+ - It contains several modules like IOC, AOP, DAO, 
+ Context, WEB MVC, etc.
+
+Advantages
+ - Lightweight
+ - predefined template
+ - Loose coupling
+ - Easy to test
+ - Fast development
+ - Integration with other frameworks
+ - Well defined MVC framework 
+
+Architecture:
+
+IOC (Inversion of Control)
+
+Annotations:
+
+@Configuration - class-based annotation that defines one or more 
+bean methods in the class.
+Java developers can write codes by 
+replacing large XML configuration files.
+
+@Autowired
+used to inject the dependency of one bean into another.
+
+@Bean
+method-level annotation
+help to create and manage beans
+
+@Component
+used to mark the Java class in the Spring applications.
+Turns the class into a Spring bean at
+the auto-scan time.
+
+@ComponentScan
+@ComponentScan is an annotation used in the Spring Framework 
+for auto-detecting and registering Spring-managed components
+
+@Controller - Controllers are responsible for processing user requests and returning the response to the client. 
+
+@Service - performs business logic operations within a 
+Spring application. represents the service layer
+
+@Repository - repositories are responsible for handling 
+data persistence and retrieval, usually interacting with a database 
+or an external data source. 
